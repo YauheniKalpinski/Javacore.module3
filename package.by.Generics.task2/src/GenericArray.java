@@ -10,7 +10,7 @@ public class GenericArray<T> {
 
     public GenericArray(int arraySize) {
         this.arraySize = arraySize;
-        this.array = (T[]) new Object[arraySize];
+        this.array = (T[]) new Object[arraySize];//создаем object и приводим к T
     }
 
     public int getArraySize() {
